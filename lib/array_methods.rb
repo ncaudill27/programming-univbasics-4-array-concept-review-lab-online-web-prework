@@ -11,6 +11,7 @@ def find_max_value(array)
       puts number_check
     end
   }
+  number_check
 end
 
 def find_min_value(array)
