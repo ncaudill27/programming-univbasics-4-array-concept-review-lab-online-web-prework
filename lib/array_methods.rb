@@ -8,6 +8,7 @@ def find_max_value(array)
   length.times { |index|
     while array[index] > number_check do
       number_check = array[index]
+      number_check
     end
   }
 end
