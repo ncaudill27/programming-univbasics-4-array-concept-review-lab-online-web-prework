@@ -3,7 +3,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  number_check = 0
+  number_check = array[0]
   length = array.length
   length.times { |index|
     while array[index] > number_check do
