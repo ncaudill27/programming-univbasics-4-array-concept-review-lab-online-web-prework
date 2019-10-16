@@ -15,5 +15,13 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  # Add your solution here
+  number_check = array[0]
+  length = array.length
+  length.times { |index|
+    while array[index] < number_check do
+      number_check = array[index]
+      puts number_check
+    end
+  }
+  number_check
 end
