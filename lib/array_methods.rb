@@ -7,7 +7,7 @@ def find_max_value(array)
   length = array.length 
   length.times { |index| # Limits loop to length of array
     while array[index] > number_check do # Compares elements in array, with first one stored.
-      number_check = array[index]
+      number_check = array[index] # Stores element if greather than 
     end
   }
   number_check
